@@ -1,3 +1,12 @@
+#main{
+  background-color: limegreen;
+  box-shadow: 0 0 5px 0px #000;
+}
+
+#titleLogo{
+  font-family:'Architects Daughter', cursive;
+}
+
 #img-logo{
   border-radius: 50%;
   margin-right: 15px;
@@ -8,6 +17,10 @@
   color: rgb(124, 252, 0);
 }
 
+#navbarSubmenu{
+  font-family:'Architects Daughter', cursive;
+  letter-spacing: 1.5px;
+}
 #navbarSubmenu:hover{
   color: rgb(124, 252, 0);
 }
@@ -20,6 +33,7 @@
 
 #carousel{
   position: relative;
+  box-shadow: 5px 8px 14px 0px #000;
 }
 
 #carousel .overlay{
@@ -39,16 +53,24 @@
 }
 
 #titleOne{
-  color: rgba(220, 230, 220, 1);
+  color: rgb(124, 252, 0);
   text-shadow:0 0 2px #fff;
   letter-spacing:2px;
   font-size: 4em;
+  font-family:'Architects Daughter', cursive;
 }
 
-.conatainer_servicios{
+#boton{
+font-family: 'Architects Daughter';
+letter-spacing: 15px;
+font-weight: 700;
+}
+
+.container_servicios{
   border: 2px solid silver;
   border-radius: 1em;
   box-shadow: -1px 7px 20px 0px #000;
+  background-color: ghostwhite;
 }
 
 .card{
@@ -58,4 +80,18 @@
 #rowie{
   display: flex;
   justify-content:space-around;
+}
+
+#titleTwo{
+  font-family:'Architects Daughter', cursive;
+}
+
+h3{
+  font-family:'Architects Daughter', cursive;
+}
+
+#titleThree{
+  color: white;
+  text-shadow:  1px 4px 7px #000;
+  font-family:'Architects Daughter', cursive;
 }
