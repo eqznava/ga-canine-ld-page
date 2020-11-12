@@ -186,4 +186,8 @@ h3{
     justify-content: center;
     margin-right: 2rem;
   }
+
+  #servicios_row h3{
+    font-size: 1rem;
+  }
 }
