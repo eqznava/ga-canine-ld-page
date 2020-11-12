@@ -30,9 +30,6 @@
           <li class="nav-item">
             <a class="nav-link" id="navbarSubmenu" href="#contactanos">Cont&aacute;ctanos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" id="navbarSubmenu" href="#ubicacion">Ubicaci&oacute;n</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -76,19 +73,19 @@
         <div class="col-lg-4 col-md-4 col-sm-4">
           <ul>
             <li><h3>Adiestramiento</h3></li>
-            <img src="assets/images/adiestramiento.png" alt="ilustracion adiestramiento canino">
+            <img class="img-fluid" src="assets/images/adiestramiento.png" alt="ilustracion adiestramiento canino">
           </ul>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <ul>
             <li><h3>Guardia y protecci&oacute;n</h3></li>
-            <img src="assets/images/guardia_proteccion.png" alt="ilustracion perro guardia">
+            <img class="img-fluid" src="assets/images/guardia_proteccion.png" alt="ilustracion perro guardia">
           </ul>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <ul>
             <li><h3>Paseo</h3></li>
-            <img src="assets/images/paseos.png" alt="ilustracion paseos perros">
+            <img class="img-fluid" src="assets/images/paseos.png" alt="ilustracion paseos perros">
           </ul>
         </div>
       </div>
@@ -96,19 +93,19 @@
         <div class="col-lg-4 col-md-4 col-sm-4">
           <ul>
             <li><h3>Pensi&oacute;n</h3></li>
-            <img src="assets/images/pension.png" alt="ilustracion pension de perros">
+            <img class="img-fluid" src="assets/images/pension.png" alt="ilustracion pension de perros">
           </ul>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <ul>
             <li><h3>Accesorios</h3></li>
-            <img src="assets/images/accesorios.png" alt="ilustracion de accesorios de perros">
+            <img class="img-fluid" src="assets/images/accesorios.png" alt="ilustracion de accesorios de perros">
           </ul>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <ul>
             <li><h3>Estetica Canina</h3></li>
-            <img src="assets/images/estetica.png" alt="ilustracion de estetica canina">
+            <img class="img-fluid" src="assets/images/estetica.png" alt="ilustracion de estetica canina">
           </ul>
         </div>
       </div>
@@ -193,6 +190,20 @@
   </section>
   <!--fin Main -->
   <!--Contacto -->
+  <div id="form-container" class="container-form mt-4 mb-4">
+    <div id="row-form"class="row ml-4 mr-4">
+      <h2>Contactanos</h2>
+      <form id="formulario" action="https://formcarry.com/s/izmv3ZuTlx" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="user_name" placeholder="Escribe tu nombre">
+        <label for="mail">Correo electr&oacute;nico:</label>
+        <input type="email" id="mail" name="user_mail" placeholder="ejemplo@gmail.com">
+        <label for="msg">Mensaje:</label>
+        <textarea id="msg" name="user_message" rows="4" cols="40" placeholder="Escribe la duda que tengas, con gusto te asesoramos"></textarea>
+        <input class="mt-2 mb-2" type="submit" value=“Enviar”>
+      </form>
+    </div>
+  </div>
   <div id="contactanos" class="container mt-4 mb-4">
     <div class="container_contacto">
       <div id="row_cont" class="row">
@@ -220,6 +231,14 @@
     </div>
   </div>
   <!--fin Contacto -->
+  <!--Footer-->
+  <div id="footer_container"class="container-footer mt-4">
+    <div id="footer_row" class="row">
+        <p>Designed and created by <a href="https://twitter.com/eqznava" target="_blank"><strong>Sergio Enriquez Nava</strong></a></p>
+        <p>Adiestramiento Canino Grandes Amigos &#169; 2020</p>
+    </div>
+  </div>
+  <!--fin Footer -->
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
