@@ -1,3 +1,7 @@
+html{
+  overflow-x: hidden; 
+}
+
 #main{
   background-color: limegreen;
   box-shadow: 0 0 5px 0px #000;
