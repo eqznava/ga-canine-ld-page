@@ -160,6 +160,7 @@ h3{
 }
 
 #footer_row p{
+  margin-top: 0.6rem;
   margin-left: 3rem;
   margin-right: 2rem;
   margin-bottom: auto;
@@ -190,5 +191,9 @@ h3{
     display: flex;
     justify-content: center;
     margin-right: 2rem;
+  }
+
+  #footer_row p{
+    margin-top: auto;
   }
 }
