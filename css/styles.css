@@ -141,8 +141,13 @@ h3{
   margin-top:revert;
 }
 
+#row_cont{
+  display: flex;
+  justify-content: center;
+}
+
 #row_cont ul{
-  margin-right: 4rem;
+  margin-right:4rem;
 }
 
 #footer_container{
